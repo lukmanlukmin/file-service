@@ -1,0 +1,38 @@
+{
+  "name": "api-order-management",
+  "version": "1.0.0",
+  "private": true,
+  "author": "agung.julisman@yahoo.com",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "~1.13.2",
+    "chai": "1.8.1",
+    "chai-http": "^2.0.1",
+    "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
+    "express": "~4.13.1",
+    "express-validator": "^2.20.10",
+    "moment": "^2.17.1",
+    "morgan": "~1.6.1",
+    "mysql": "^2.11.1",
+    "ralali-authentication": "git+https://devops-ralali:Ralali2016X@github.com/ralali/ralali-authentication.git#1.0.4",
+    "ralali-connector": "git+https://github.com/bachtiaryayan/ralali-connector.git",
+    "ramda": "^0.22.1",
+    "sequelize": "^3.24.3",
+    "swagger-jsdoc": "^1.8.2"
+  },
+  "devDependencies": {
+    "faker": "^3.1.0",
+    "jenkins-mocha": "^3.0.4",
+    "jshint": "^2.9.3",
+    "json-structure-validator": "^0.0.3",
+    "mocha": "^2.4.5",
+    "mocha-junit-reporter": "^1.10.0"
+  },
+  "scripts": {
+    "test": "jenkins-mocha test/**/**/ --timeout 10000",
+    "documentation": "jsdoc -c conf-jsdoc.json",
+    "pretest": "jshint app/**"
+  }
+}

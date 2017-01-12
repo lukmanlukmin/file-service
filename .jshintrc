@@ -1,0 +1,12 @@
+{
+    "esversion": 6,
+    "node": true,
+    "curly": true,
+    "eqeqeq": true,
+    "undef": true,
+    "varstmt": true,
+    "unused": true,
+    "asi":true,
+    "lastsemic":true,
+    "strict": "global"
+}
