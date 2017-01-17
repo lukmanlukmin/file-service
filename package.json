@@ -20,7 +20,10 @@
     "ralali-connector": "git+https://github.com/bachtiaryayan/ralali-connector.git",
     "ramda": "^0.22.1",
     "sequelize": "^3.24.3",
-    "swagger-jsdoc": "^1.8.2"
+    "swagger-jsdoc": "^1.8.2",
+    "aws-sdk": "^2.6.7",
+    "multer": "^1.2.0",
+    "multer-s3": "^2.3.2"
   },
   "devDependencies": {
     "faker": "^3.1.0",
